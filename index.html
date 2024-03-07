@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing responsive website</title>
+    <!-- Boxicons css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+     <!-- Swiper Css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Css File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav_logo">Travel</a>
+            
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Explore</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Destinations</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Hotels</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+      </nav>
+    </header>
+
+    <main class="main">
+     <div class="swiper mySwiper2">
+        <div class="swiper-wrapper ">
+          <section class="islands swiper-slide">
+              <img src="assets/img/borabora.jpg" alt="" class="islands_bg">
+              <div class="islands_container bd-container">
+                <div class="islands_data">
+                    <h2 class="islands_subtitle">Islands</h2>
+                    <h1 class="islands_title">Bora Bora</h1>
+                    <p class="islands_description">Small South Pacific island northwest of Tahiti in French Polynesia surrounded by motus. </p>
+                    <a href="" class="islands_button">Explore <i class="bx bx-right-arrow-alt islands_button-icon"></i></a>
+                </div>
+                <div class="islands_video">
+                    <div class="islands_video-content">
+                        <i class="bx bx-play-circle islands_video-icon" ></i>
+                    </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="islands swiper-slide">
+                <img src="assets/img/bali.jpg" alt="" class="islands_bg">
+                <div class="islands_container bd-container">
+                  <div class="islands_data">
+                      <h2 class="islands_subtitle">Islands</h2>
+                      <h1 class="islands_title">Bali</h1>
+                      <p class="islands_description">Small South Pacific island northwest of Tahiti in French Polynesia surrounded by motus. </p>
+                      <a href="" class="islands_button">Explore <i class="bx bx-right-arrow-alt islands_button-icon"></i></a>
+                  </div>
+                  <div class="islands_video">
+                      <div class="islands_video-content">
+                          <i class="bx bx-play-circle islands_video-icon" ></i>
+                      </div>
+                  </div>
+                </div>
+            </section> 
+
+            <section class="islands swiper-slide">
+                <img src="assets/img/palawan.jpg" alt="" class="islands_bg">
+                <div class="islands_container bd-container">
+                  <div class="islands_data">
+                      <h2 class="islands_subtitle">Islands</h2>
+                      <h1 class="islands_title">Palawan</h1>
+                      <p class="islands_description">Small South Pacific island northwest of Tahiti in French Polynesia surrounded by motus. </p>
+                      <a href="" class="islands_button">Explore <i class="bx bx-right-arrow-alt islands_button-icon"></i></a>
+                  </div>
+                  <div class="islands_video">
+                      <div class="islands_video-content">
+                          <i class="bx bx-play-circle islands_video-icon" ></i>
+                      </div>
+                  </div>
+                </div>
+            </section> 
+
+          <div class="islands_popup" id="popup">
+            <div class="islands_popup-close" id="popup-close">
+                <i class="bx bx-x"></i>
+            </div>
+            
+            <iframe class="islands_popup-video" src="https://www.youtube.com/embed/JrU6bsuNU7Y?si=wqDYDZPPp0NSRLvu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          </div>
+          </div>
+          <div class="controls mySwiper">
+            <div class="controls_container swiper-wrapper">
+                <img src="assets/img/borabora.jpg" alt="" class="controls_img swiper-slide">
+            <img src="assets/img/bali.jpg" alt="" class="controls_img swiper-slide">
+            <img src="assets/img/palawan.jpg" alt="" class="controls_img swiper-slide">
+           
+          </div>
+          </div>
+
+        
+     </div>
+    </main>
+</body>
+<script src="assets/JS/swiper-bundle.min.js"></script>
+<script src="assets/JS/gsap.min.js"></script>
+<script src="assets/JS/script.js"></script>
+</html>
